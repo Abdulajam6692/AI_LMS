@@ -1,0 +1,25 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5dc; /* Beige background */
+  color: #333; /* Dark text color for readability */
+}
+
+button {
+  background-color: #4A90E2; /* Soft blue for button */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #357ABD; /* Darker blue on hover */
+}
+
+h1, h2, h3 {
+  color: #1D3557; /* A deeper blue for headings */
+}

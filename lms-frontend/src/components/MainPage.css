@@ -1,0 +1,59 @@
+.main-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: beige;
+  }
+  
+  .main-title {
+    font-size: 3rem;
+    color: #1a73e8;
+    margin-bottom: 2rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .button-container {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .login-button {
+    padding: 12px 24px;
+    font-size: 1rem;
+    color: white;
+    background-color: #1a73e8;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .login-button:hover {
+    background-color: #1557b0;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .login-button:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .student-login {
+    background-color: #4caf50;
+  }
+  
+  .student-login:hover {
+    background-color: #45a049;
+  }
+  
+  .admin-login {
+    background-color: #f44336;
+  }
+  
+  .admin-login:hover {
+    background-color: #d32f2f;
+  }

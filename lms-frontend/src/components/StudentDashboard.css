@@ -1,0 +1,149 @@
+.student-dashboard {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .dashboard-title {
+    color: #333;
+    border-bottom: 2px solid #007BFF;
+    padding-bottom: 10px;
+  }
+  
+  .message {
+    color: #28a745;
+    background-color: #e6f4ea;
+    border: 1px solid #28a745;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .section-title {
+    color: #007BFF;
+    margin-top: 30px;
+  }
+  
+  .course-item {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .course-name {
+    margin: 0 0 10px 0;
+    color: #333;
+  }
+  
+  .course-description {
+    color: #666;
+  }
+  
+  .enroll-button, .quiz-button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .enroll-button:hover, .quiz-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .enrolled-course-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f8f9fa;
+    color: #333;
+    border: 1px solid #007BFF;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: left;
+    transition: all 0.3s;
+  }
+  
+  .enrolled-course-button.active {
+    background-color: #007BFF;
+    color: white;
+  }
+  
+  .progress-bar {
+    width: 100%;
+    height: 20px;
+    margin-top: 10px;
+  }
+  
+  .progress-text {
+    display: block;
+    margin-top: 5px;
+    color: #666;
+  }
+  
+  .lesson-item {
+    margin-bottom: 30px;
+  }
+  
+  .lesson-title {
+    color: #333;
+  }
+  
+  .video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+    margin-bottom: 15px;
+  }
+  
+  .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .download-link {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .download-link:hover {
+    background-color: #218838;
+  }
+  
+  .toggle-completion-button {
+    padding: 5px 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .toggle-completion-button.complete {
+    background-color: #28a745;
+  }
+  
+  .toggle-completion-button.incomplete {
+    background-color: #FF5733;
+  }
+  
+  .toggle-completion-button:hover {
+    opacity: 0.8;
+  }
