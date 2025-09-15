@@ -49,4 +49,3 @@ python app.py
 
 ```bash
 git clone https://github.com/Abdulajam6692/AI_LMS.git
-cd ai-doubt-resolution-lms
