@@ -4,18 +4,18 @@ This project is an AI-powered Learning Management System (LMS) that allows stude
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 ├── lms-frontend/ # React-based frontend for student and admin dashboards
 ├── lms-backend/ # Express.js backend with REST APIs
 └── README.md
 
 
-## 🚀 Features
+##  Features
 
-- 🧠 Ask a Doubt: Students can submit doubts via text
-- 🤖 AI Resolution: Uses Hugging Face models (like GPT-2) locally for instant doubt solving
-- 📊 Dashboard: Admin view to manage doubts and study material
-- 🔐 Role-based Access (Student/Admin)
+-  Ask a Doubt: Students can submit doubts via text
+-  AI Resolution: Uses Hugging Face models (like GPT-2) locally for instant doubt solving
+-  Dashboard: Admin view to manage doubts and study material
+-  Role-based Access (Student/Admin)
 
 ---
 
@@ -23,8 +23,8 @@ This project is an AI-powered Learning Management System (LMS) that allows stude
 
 - **Frontend:** React, Axios, Tailwind CSS
 - **Backend:** Node.js, Express.js
-- **AI Server:** Python Flask with Hugging Face Transformers (e.g., GPT-2, Whisper)
-- **Database:** MongoDB (or MySQL – specify what you're using)
+- **AI Server:** Python Flask with Hugging Face Transformers (e.g., GPT-2)
+- **Database:** mysql
 
 ---
 
