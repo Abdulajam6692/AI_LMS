@@ -1,4 +1,4 @@
-# 🎓 AI-Powered Doubt Resolution System (LMS)
+#  AI-Powered Doubt Resolution System (LMS)
 
 This project is an AI-powered Learning Management System (LMS) that allows students to post doubts and get instant resolutions using Generative AI. The platform includes both frontend and backend components.
 
@@ -19,7 +19,7 @@ This project is an AI-powered Learning Management System (LMS) that allows stude
 
 ---
 
-## 🧰 Tech Stack
+##  Tech Stack
 
 - **Frontend:** React, Axios, Tailwind CSS
 - **Backend:** Node.js, Express.js
